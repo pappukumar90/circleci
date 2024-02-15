@@ -1,0 +1,8 @@
+{
+  "name": "circleci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:pappukumar90/circleci.git",
+  "author": "<pappu.kumar@outreach.io>",
+  "license": "MIT"
+}
