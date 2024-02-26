@@ -1,14 +1,10 @@
 version: 2.1
 
 jobs:
-  hello-job:
+  build:
     docker:
-      - image: cimg/node:17.2.0
+      - image: alpine:3.15
     steps:
-      - checkout
-      - run: node ./index.js
-
-workflows:
-  my-workflow:
-    jobs:
-      - hello-job
+      - run:
+          name: "first steps"
+          command: echo "hello world"
